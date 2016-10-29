@@ -6,7 +6,9 @@ print("#### Lord of SQL Injection ####\n")
 
 # setting URL
 url = "http://los.eagle-jump.org/orc_47190a4d33f675a601f8def32df2583a.php"
-cookies = dict(PHPSESSID="irol41srevag2a8osqleail8f2")      #Setting Cookies
+
+#Setting Cookies. You must set YOUR COOKIE!!
+cookies = dict(PHPSESSID="irol41srevag2a8osqleail8f2")      
 abc = string.digits + string.ascii_letters                  #Storing ascii letters
 result = ""
 
